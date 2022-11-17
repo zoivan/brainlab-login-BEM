@@ -1,66 +1,50 @@
 label {
-    margin: 10px 0px;
-    font-weight: 600;
-   
+  margin: 10px 0px;
+  font-weight: 600;
 }
-
 input {
-    border-radius: 3px;
-    border-color: rgb(192, 192, 192);
+  border-radius: 3px;
+  border-color: rgb(192, 192, 192);
 }
-
+/* Ovo ispod su 2 utility classe flexa od kojih prva za centriranje containera */
+.fx-j-a-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f {
+  display: flex;
+}
 body {
-    width: 100vw;
-    height: 100vh;
-    background-color: #fcd530;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+  width: 100vw;
+  height: 100vh;
+  background-color: #fcd530;
 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .card {
-    width: 1000px;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    background-color: #ffff;
-    border-radius: 5px;
-     
+  width: 1000px;
+  height: 500px;
+  flex-direction: column;
+  background-color: #ffff;
+  border-radius: 5px;
 }
-
 .header {
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffff;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-  
+  background-color: red;
+  color: #ffff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .content {
-    display: flex;
-    height: 129.3%;
+  height: 129.3%;
 }
-
-.photo {
-    width: 50%;
-    border-bottom-left-radius: 5px;
+.content__office {
+  width: 50%;
+  border-bottom-left-radius: 5px;
 }
-.input {
-   
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    align-items: center;
-        
-      
-
+.content__input {
+  flex-grow: 1;
 }
-.input__user-password {
-    
-    display: flex;
-    flex-direction: column;
-
+.content__input__user-password {
+  flex-direction: column;
 }
