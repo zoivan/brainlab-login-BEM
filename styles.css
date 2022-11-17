@@ -1,0 +1,66 @@
+label {
+    margin: 10px 0px;
+    font-weight: 600;
+   
+}
+
+input {
+    border-radius: 3px;
+    border-color: rgb(192, 192, 192);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fcd530;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    border-radius: 5px;
+     
+}
+
+.header {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  
+}
+.content {
+    display: flex;
+    height: 129.3%;
+}
+
+.photo {
+    width: 50%;
+    border-bottom-left-radius: 5px;
+}
+.input {
+   
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+        
+      
+
+}
+.input__user-password {
+    
+    display: flex;
+    flex-direction: column;
+
+}
